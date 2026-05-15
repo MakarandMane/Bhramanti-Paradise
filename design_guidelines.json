@@ -1,0 +1,148 @@
+{
+  "theme": "LIGHT",
+  "archetype": "1 (Organic & Earthy)",
+  "colors": {
+    "primary": "#8C6A5D",
+    "secondary": "#E4D4C8",
+    "background": "#FDFBF7",
+    "surface": "#F4F0EA",
+    "text_main": "#2C2A29",
+    "text_muted": "#5C5A58",
+    "accent": "#B67B50",
+    "cta": "#128C7E",
+    "border": "#E8E3DD"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond, serif",
+    "body_font": "Outfit, sans-serif",
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl tracking-tight leading-none",
+      "h2": "text-3xl sm:text-4xl tracking-tight",
+      "h3": "text-2xl sm:text-3xl",
+      "h4": "text-xl",
+      "body": "text-base sm:text-lg leading-relaxed text-[#5C5A58]",
+      "overline": "text-xs uppercase tracking-[0.2em] font-bold"
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "p-4, p-8, p-12, p-20, p-32",
+    "grid_system": "Bento Grid Protocol (MODE A) for Marketing/Portfolios, asymmetry prioritized",
+    "container_max_width": "max-w-7xl mx-auto",
+    "padding_sections": "py-20 md:py-32",
+    "border_radius": "rounded-2xl"
+  },
+  "components": {
+    "buttons": "rounded-full px-8 py-3 transition-transform hover:-translate-y-1 shadow-sm",
+    "cards": "bg-[#F4F0EA] rounded-2xl p-6 border border-[#E8E3DD] shadow-sm hover:shadow-md transition-shadow",
+    "hero_overlay": "bg-black/30",
+    "glassmorphism": "backdrop-blur-xl bg-white/70 border border-white/20"
+  },
+  "sections": [
+    {
+      "name": "Header",
+      "description": "Sticky navigation with glassmorphism, Logo on left, Links in middle, WhatsApp CTA on right. Mobile hamburger."
+    },
+    {
+      "name": "Hero",
+      "description": "Full-width background image with bg-black/40 overlay. Center aligned text with a bold serif H1, elegant taglines, and a WhatsApp CTA button. High contrast."
+    },
+    {
+      "name": "Featured Destinations",
+      "description": "Bento grid layout showcasing Bali, Switzerland, Maldives, Dubai, Paris, Kerala, Kashmir, Rajasthan. Use negative space and varying card sizes. Images cover the card with a bottom gradient and text."
+    },
+    {
+      "name": "Services",
+      "description": "Generously spaced list/grid of services (Custom Itineraries, Group Tours, Luxury Travel, Visa Assistance). Minimalist icons. Warm earthy backgrounds."
+    },
+    {
+      "name": "Testimonials",
+      "description": "A scrollable or grid section with user portraits, serif quotes, and 5-star ratings."
+    },
+    {
+      "name": "CTA Section",
+      "description": "A dedicated block with earthy background, encouraging users to book via WhatsApp or phone call."
+    },
+    {
+      "name": "Footer",
+      "description": "Large footer block with generous padding (py-32). Brand name in large display font, links, contact info."
+    }
+  ],
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB0cmF2ZWwlMjByZXNvcnQlMjBzdW5zZXR8ZW58MHx8fHwxNzc4ODcxNzk1fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury travel resort sunset for Hero section background"
+      }
+    ],
+    "destinations": [
+      {
+        "name": "Bali",
+        "url": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwxfHxiYWxpJTIwdGVtcGxlJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc3ODg3MTc5NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Bali temple landscape"
+      },
+      {
+        "name": "Switzerland",
+        "url": "https://images.unsplash.com/photo-1607867283465-d6792016b481?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxzd2l0emVybGFuZCUyMGFscHMlMjB2aWxsYWdlfGVufDB8fHx8MTc3ODg3MTc5NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Switzerland Alps village"
+      },
+      {
+        "name": "Maldives",
+        "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxtYWxkaXZlcyUyMHdhdGVyJTIwdmlsbGF8ZW58MHx8fHwxNzc4ODcxNzk1fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Maldives water villa"
+      },
+      {
+        "name": "Dubai",
+        "url": "https://images.unsplash.com/photo-1607414851776-f2fcc379fb48?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxkdWJhaSUyMHNreWxpbmUlMjBzdW5zZXR8ZW58MHx8fHwxNzc4ODcxNzk0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Dubai skyline sunset"
+      },
+      {
+        "name": "Paris",
+        "url": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxwYXJpcyUyMGVpZmZlbCUyMHRvd2VyfGVufDB8fHx8MTc3ODg3MTc5NXww&ixlib=rb-4.1.0&q=85",
+        "description": "Paris Eiffel Tower"
+      },
+      {
+        "name": "Kerala",
+        "url": "https://images.unsplash.com/photo-1609828913552-f9138ed9e42d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjBob3VzZWJvYXQlMjBiYWNrd2F0ZXJzfGVufDB8fHx8MTc3ODg3MTc5NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Kerala Houseboat Backwaters"
+      },
+      {
+        "name": "Kashmir",
+        "url": "https://images.unsplash.com/photo-1564329494258-3f72215ba175?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxrYXNobWlyJTIwZGFsJTIwbGFrZSUyMHNoaWthcmF8ZW58MHx8fHwxNzc4ODcxNzk0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Kashmir Dal Lake Shikara"
+      },
+      {
+        "name": "Rajasthan",
+        "url": "https://images.unsplash.com/photo-1591946522651-90fbace43004?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwxfHxyYWphc3RoYW4lMjBwYWxhY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc4ODcxNzk0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Rajasthan Palace Architecture"
+      }
+    ],
+    "testimonials": [
+      {
+        "url": "https://images.unsplash.com/photo-1664312572933-0563f14484a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHRvdXJpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzg4NzE3OTR8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Tourist 1"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1455819760800-d2aa223b237a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHRvdXJpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzg4NzE3OTR8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Tourist 2"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1492462543947-040389c4a66c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHRvdXJpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzg4NzE3OTR8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Tourist 3"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Use custom Tailwind classes instead of plain Shadcn. It is a marketing page.",
+    "Ensure all fonts are imported appropriately (e.g., Cormorant Garamond and Outfit via Google Fonts).",
+    "DO NOT use a contact form. Only use CTA buttons with WhatsApp/Phone icons and text.",
+    "WhatsApp buttons should have the brand CTA color, likely WhatsApp Green (#25D366) or match the theme's CTA color (#128C7E).",
+    "Ensure the hero image overlay is not too dark (use bg-black/40 or bg-black/30), so the resort image is visible and elegant.",
+    "Follow the bento grid protocol (MODE A) for Featured Destinations with asymmetrical layout (mix of tall, wide, and square image cards).",
+    "Images for destinations must not exceed 80vh on mobile to prevent blocking scroll.",
+    "For interactive elements, implement 'data-testid' for all buttons, links, etc.",
+    "Implement smooth scrolling using lenis or pure CSS (scroll-behavior: smooth).",
+    "Ensure generous spacing: p-8, p-12, py-24, py-32 for sections.",
+    "Use @lucide/react or @phosphor-icons/react for icons if needed.",
+    "Include a sticky WhatsApp button on the bottom right of the page for prominent access."
+  ]
+}
